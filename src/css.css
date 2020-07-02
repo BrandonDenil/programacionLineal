@@ -1,0 +1,24 @@
+
+ body{
+     
+ }
+
+/* label focus color */
+input:focus {
+    /* color: #d35400 !important; */
+    border-bottom: 1px solid #d35400  !important;
+    box-shadow: 0 1px 0 0 #d35400 !important;
+  }
+
+ input:focus + label {
+    color: #d35400 !important;
+  }
+.func{
+  display: inline !important;
+  width: 3.5rem !important;
+  text-align: right;
+}
+.Vars{
+  display: inline !important;
+  color: #d35400;
+}
